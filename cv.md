@@ -40,3 +40,18 @@ __Azerbaijan International University Sep /2002 – May/2006__
 
 Bachelor Degree - Philology (English)
 
+### Training and Certificates
+
+__United Kingdom Civil Aviation Authority Offshore Operator’s Certificate of Competence (CAA)__
+_July 2012_
+
+__GMDSS General Operator’s Certificate__ 
+_March 2018_ 
+
+__Basic knowledge of HTML CSS JS__
+
+### Summary
+Experienced radio operator  with overall 10 years of experience in providing communication between the rig and vessel and offshore to shore stations. Maintain communication during helicopter traffic and personnel transfer.  Leads by example, challenges routine work practices and strives for performance optimisation in both people and processes.
+
+Multilingual: English-Fluent / Russian-Fluent/ Azerbaijani -Native 
+
