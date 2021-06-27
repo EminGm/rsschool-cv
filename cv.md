@@ -21,3 +21,22 @@ Integrate new technologies and train personnel in their uses.
 Provide technical support and trouble shoot problems.
 Upgrade hardware and systems.
 Control purchase and logistics for spare parts.
+
+__Technician July/2003 - Jan/2006__
+
+Best Comp Group, ROBOTECH
+Provide repair and maintenance of computer hardware.
+
+### Education
+__Kyiv Polytechnic Institute Sep/2015 – July/2018__
+
+Bachelor’s Degree (Electronic Systems and Devices)
+
+__Azerbaijan University of Languages Sep/2006 – May/2009__
+
+Master’s Degree (Linguistics Major: English)
+
+__Azerbaijan International University Sep /2002 – May/2006__
+
+Bachelor Degree - Philology (English)
+
