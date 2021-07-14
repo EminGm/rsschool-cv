@@ -1,0 +1,218 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}s
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.wrapper{
+	width: device-width;
+	margin: 0 auto;
+	padding: 40px 18px 40px 62px;
+	background: #E5E5E5;}
+
+.container{
+display: flex;
+flex: 1 1 33%;
+margin: 0 auto;
+font-family: 'Montserrat', sans-serif;
+width: 1222px;
+height: 1319px;
+background: #FFFFFF;
+box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);}
+
+.sidebar {
+display:flex;
+flex-direction:column;
+width: 370px;
+height: 1319px;
+background: #1E2939;
+color: #FFFFFF;
+}
+
+.sidebar__image {
+margin:40px 0px 50px 0px;
+width: 370px;
+height: 354px;
+background: url(img/photo.jpg);}
+
+.sidebar__contacts{
+margin:0px 147px 50px 40px;
+width: 183px;
+height: 83px;
+}
+
+.sidebar__contacts p:nth-child(1){
+width: 104px;
+height: 27px;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 27px;
+margin:0px 0px 8px 0px;
+}
+
+.sidebar__contacts p:nth-child(2){
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: #FFFFFF;
+opacity: 0.5;
+top:40px;
+}
+
+
+.sidebar__contacts p:nth-child(3){
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: #FFFFFF;
+opacity: 0.5;
+top:70px;
+}
+
+.sidebar__skills__tSkills{
+margin:0px 147px 44px 40px;
+color: #FFFFFF;
+}
+
+.sidebar__skills__tSkills p {
+margin:0px 0px 8px 0px;
+padding:7px 0px 7px 0px;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+}
+
+.sidebar__skills__tSkills li::before {
+display: inline-block;
+content:'V';
+color:#e30202;
+padding:0px 5px 10px 0px;
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+}
+
+.content__bio h1{
+font-weight: bold;
+font-size: 45px;
+line-height: 55px;
+padding:100px 422px 24px 88px;
+}
+
+.content__workExperience{padding: 0px 50px 40px 88px;}
+
+.content__workExperience ul li {list-style: inside;}
+
+.content__workExperience ul{padding-bottom: 17px;}
+
+.content__workExperience p:nth-child(1){
+font-weight: bold;
+font-size: 22px;
+line-height: 27px;
+padding:0px 0px 12px 0px;
+}
+ 
+.content__workExperience p:nth-child(2), .content__workExperience p:nth-child(5), .content__workExperience p:nth-child(8)
+{
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+padding:0px 400px 11px 0px;
+}
+
+.content__workExperience p:nth-child(3), .content__workExperience p:nth-child(6) , .content__workExperience p:nth-child(9){
+font-size: 12px;
+line-height: 15px;
+padding:0px 100px 8px 0px;
+}
+
+.content__workExperience ul:nth-child(4), .content__workExperience ul:nth-child(7),.content__workExperience ul:nth-child(10){
+list-style: inside;
+font-size: 14px;
+line-height: 24px;
+}
+
+.content__workExperience span {color: #3632a8;}
+
+.content__education{padding: 0px 0px 40px 88px;}
+
+.content__education p:nth-child(1){
+font-weight: bold;
+font-size: 22px;
+line-height: 27px;
+}
+
+.content__education p{padding-bottom:12px;}
+
+.content__education p:nth-child(2), .content__education p:nth-child(5), .content__education p:nth-child(8){
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+color:#3632a8;
+}
+
+.content__education p:nth-child(3), .content__education p:nth-child(6), .content__education p:nth-child(9){
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;}
+
+.content__education p:nth-child(4), .content__education p:nth-child(7) , .content__education p:nth-child(10){
+font-size: 12px;
+line-height: 15px;
+color: #A8A8A8;}
+
+footer{
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding:0px 45px 8px 0px;
+	}
+
+.github{
+	font-weight: bold;
+	font-size: 10px;
+	text-align: center;
+	}
+
+.myCourse{
+	padding: 10px 0px 10px 0px;
+}
+
+.footerRS {
+	width:100px;
+}
